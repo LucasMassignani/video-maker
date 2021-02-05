@@ -1,12 +1,5 @@
 const readline = require('readline-sync')
-const robots = {
-  userInput: require('./robots/user-input'),
-  text: require('./robots/text')
-}
-
-async function start() {
-  const content = {}
-
+function robot(content){
   content.searchTerm = askAndReturnSearchTerm()
   content.prefix = askAndReturnPrefix()
 
@@ -21,9 +14,6 @@ async function start() {
 
     return selectedPrefixText
   }
-
-  await robots.text(content)
-  console.log(content)
 }
 
-start()
+module.exports = robot
