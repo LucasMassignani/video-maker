@@ -24,3 +24,14 @@ File `watson-nlu.json`
   "url":  "..."
 }
 ```
+
+## Google Search
+
+File `google-search.json`
+
+```
+{
+  "apiKey": "API_KEY_FAKE",
+  "searchEngineId": "..."
+}
+```
