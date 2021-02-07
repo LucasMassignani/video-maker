@@ -9,6 +9,7 @@
     "algorithmia": "^0.3.10",
     "googleapis": "^67.0.0",
     "ibm-watson": "^6.0.2",
+    "image-downloader": "^4.0.2",
     "readline-sync": "^1.4.10",
     "sbd": "^1.0.18"
   }
