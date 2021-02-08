@@ -35,3 +35,22 @@ File `google-search.json`
   "searchEngineId": "..."
 }
 ```
+
+## Google YouTube
+
+File `google-youtube.json`
+
+```
+{
+  "web": {
+    "client_id": "...",
+    "project_id": "...",
+    "auth_uri": "...",
+    "token_uri": "...",
+    "auth_provider_x509_cert_url": "...",
+    "client_secret": "...",
+    "redirect_uris": ["..."],
+    "javascript_origins": ["..."]
+  }
+}
+```
