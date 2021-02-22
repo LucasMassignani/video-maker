@@ -26,7 +26,7 @@ async function robot() {
       const templateFilePath = `${rootPath}/templates/1/template.aep`
       const destinationFilePath = `${rootPath}/content/output.mov`
 
-      console.log('> [video-robot] Starting After Effects')
+      console.log('> [video-robot][after-effects] Starting After Effects')
 
       const aerender = spawn(aerenderFilePath, [
         '-comp', 'main',
@@ -39,7 +39,7 @@ async function robot() {
       })
 
       aerender.stdout.on('close', ()=>{
-        console.log('> [video-robot] After Effects closed')
+        console.log('> [video-robot][after-effects] After Effects closed')
         resolve()
       })
     })
