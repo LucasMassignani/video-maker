@@ -49,8 +49,7 @@ async function robot() {
 
   async function downloadAllImages(content) {
     content.downloadedImages = []
-    
-
+ 
     for (let sentenceIndex = 0; sentenceIndex < content.sentences.length; sentenceIndex++) {
       const images = content.sentences[sentenceIndex].images
 

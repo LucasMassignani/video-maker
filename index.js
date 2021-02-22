@@ -3,7 +3,8 @@ const robots = {
   text: require('./robots/text'),
   state: require('./robots/state'),
   image: require('./robots/image'),
-  video: require('./robots/video'),
+  video: require('./robots/videoRobots/ffmpeg'),
+  // video: require('./robots/videoRobots/afterEffects'),
   youtube: require('./robots/youtube')
 }
 
